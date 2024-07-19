@@ -566,3 +566,7 @@ img {
   border: 1px solid #404bbf;
   fill: #f4f4fd;
 }
+.privacy-policya {
+  /* color: #4d5ae5; */
+  text-decoration: underline;
+}
