@@ -375,7 +375,8 @@ img {
 .footer-container .paragraph {
   color: #ffffff;
 }
-.footer-social .paragraph {
+.footer-social .paragraph,
+.container .paragraph {
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 16px;
@@ -396,6 +397,34 @@ img {
 .footer-social .team-social-a:hover,
 .footer-social .team-social-a:focus {
   background-color: #31d0aa;
+}
+.form-footer-email {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding: 8px 16px;
+}
+.footer-btn {
+  background: #4d5ae5;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+.subcribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .modal-bgrd {
   position: fixed;
@@ -567,6 +596,6 @@ img {
   fill: #f4f4fd;
 }
 .privacy-policya {
-  /* color: #4d5ae5; */
+  color: #4d5ae5;
   text-decoration: underline;
 }
