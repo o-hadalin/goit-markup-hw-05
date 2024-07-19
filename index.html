@@ -447,7 +447,7 @@
               </svg>
             </div>
           </div>
-          <div class="form-field form-comment">
+          <div class="form-field">
             <label class="form-label" for="textarea-text">Comment</label>
             <div class="input-wrapper">
               <textarea
@@ -458,23 +458,19 @@
               ></textarea>
             </div>
           </div>
-          <div class="input-wrapper">
-            <input
-              class="form-input visually-hidden"
-              name="input-checkbox"
-              id="input-checkbox"
-              type="checkbox"
-              value="true"
-            />
-            <label class="label-chekbox" for="input-checkbox">
-              <span class="span-chekbox">
-                <svg class="form-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-mark"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the <span><a href="">Privacy Policya</a></span>
-            </label>
-          </div>
+          <input
+            type="checkbox"
+            name="input-checkbox"
+            id="input-checkbox"
+            value="true"
+            class="modal-checkbox visually-hidden"
+          />
+          <label class="label-chekbox" for="input-checkbox"
+            ><span class="span-chekbox"
+              ><svg width="10" height="8">
+                <use href="./images/icons.svg#icon-mark"></use></svg></span
+            >I accept the terms and conditions of the <span><a href="">Privacy Policya</a></span></label
+          >
           <button class="order-button" type="submit">Send</button>
         </form>
       </div>
