@@ -482,3 +482,30 @@ margin: 0 auto;
 display: block;
 border: none;
 }
+.label-chekbox {
+  font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.label-chekbox .span-chekbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.form-input:checked + .label-chekbox .span-chekbox {
+  background-color: #404bbf;
+  border-radius: 2px;
+  border: 1px solid #404bbf;
+  fill: #f4f4fd;
+}
