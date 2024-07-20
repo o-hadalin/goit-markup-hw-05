@@ -515,7 +515,7 @@ img {
   margin-bottom: 16px;
 }
 .form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-input {
   width: 100%;
@@ -622,10 +622,11 @@ img {
 .modal-checkbox:checked + .label-chekbox .span-chekbox {
   background-color: #404bbf;
   border-radius: 2px;
-  border: 1px solid #404bbf;
+  /* border: 1px solid #404bbf; */
+  border: none;
   fill: #f4f4fd;
 }
-.privacy-policya {
+.privacy-policy {
   color: #4d5ae5;
   text-decoration: underline;
 }
