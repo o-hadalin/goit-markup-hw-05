@@ -434,16 +434,15 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 .subcribe {
   margin-left: 80px;
 }
-/* .subcribe-data {
-  display: flex;
-} */
+.footer-btn .team-icon {
+  margin-left: 16px;
+}
 .modal-bgrd {
   position: fixed;
   top: 0;
