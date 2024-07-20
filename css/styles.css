@@ -517,6 +517,9 @@ img {
 .form-field {
   margin-bottom: 8px;
 }
+.form-field-comment {
+  margin-bottom: 16px;
+}
 .form-input {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -607,7 +610,7 @@ img {
   gap: 8px;
   margin-bottom: 24px;
 }
-.label-chekbox .span-chekbox {
+.span-chekbox {
   width: 16px;
   height: 16px;
   border-radius: 2px;
