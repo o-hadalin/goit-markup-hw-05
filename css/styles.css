@@ -401,6 +401,10 @@ img {
 .footer-social .team-social-a:focus {
   background-color: #31d0aa;
 }
+.form-footer {
+  display: flex;
+  gap: 24px;
+}
 .form-footer-email {
   border: 1px solid #fff;
   border-radius: 4px;
@@ -437,9 +441,9 @@ img {
 .subcribe {
   margin-left: 80px;
 }
-.subcribe-data {
+/* .subcribe-data {
   display: flex;
-}
+} */
 .modal-bgrd {
   position: fixed;
   top: 0;
@@ -468,19 +472,24 @@ img {
   border-radius: 4px;
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
 }
 .modal-bgrd:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
 }
 .modal-close-btn {
-  display: block;
-  margin-left: auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  top: 24px;
+  right: 24px;
   border-radius: 50% 50%;
   width: 24px;
   height: 24px;
   cursor: pointer;
-  border: 1px ridge rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -503,10 +512,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin: 24px auto 16px;
-}
-.form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .form-input {
   width: 100%;
@@ -538,6 +544,7 @@ img {
   font-size: 18px;
   outline: transparent;
   resize: none;
+  margin-bottom: 16px;
 }
 .form-label {
   font-weight: 400;
