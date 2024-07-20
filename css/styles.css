@@ -585,6 +585,12 @@ img {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
+.form-footer-email::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
 .modal-form-btn {
   font-weight: 500;
   font-size: 16px;
