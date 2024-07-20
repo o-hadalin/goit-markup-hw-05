@@ -402,7 +402,7 @@ img {
   background-color: #31d0aa;
 }
 .form-footer {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
 }
 .form-footer-email {
@@ -611,11 +611,11 @@ img {
   margin-bottom: 24px;
 }
 .span-chekbox {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
@@ -625,7 +625,6 @@ img {
 .modal-checkbox:checked + .label-chekbox .span-chekbox {
   background-color: #404bbf;
   border-radius: 2px;
-  /* border: 1px solid #404bbf; */
   border: none;
   fill: #f4f4fd;
 }
