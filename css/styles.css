@@ -377,8 +377,11 @@ img {
 .footer-container .paragraph {
   color: #ffffff;
 }
-.footer-social .paragraph,
-.container .paragraph {
+.subcribe .paragraph {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-social .paragraph {
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 16px;
