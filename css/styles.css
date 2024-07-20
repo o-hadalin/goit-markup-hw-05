@@ -402,7 +402,7 @@ img {
   background-color: #31d0aa;
 }
 .form-footer {
-  /* display: flex; */
+  display: flex;
   gap: 24px;
 }
 .form-footer-email {
